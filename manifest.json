@@ -1,0 +1,26 @@
+{
+    "name": "Multi Account Containers",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "An extension to switch between multiple accounts on a website.",
+    "icons": {
+        "16": "icons/box-16.ico",
+        "32": "icons/box-32.ico",
+        "48": "icons/box-48.ico",
+        "128": "icons/box-128.ico"
+    },
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "storage",
+        "cookies",
+        "background",
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
